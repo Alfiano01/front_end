@@ -136,7 +136,7 @@ const Profile = () => {
         >
           <Box sx={{ m: 1 }} />
           <Typography component="h3" variant="h6">
-              Name: {user.name}
+              Name: {user.username}
           </Typography>
           <Box sx={{ mt: 1 }}>
             <Typography component="h3" variant="h6" align="center">
