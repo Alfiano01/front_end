@@ -40,7 +40,7 @@ const Profile = () => {
     // Modifikasi kode di bawah ini untuk mengambil data dari localstorage
     React.useEffect(() => {
         // 1. Ambil data user dari localstorage
-        let name  = localStorage.getItem('name')
+        let name  = localStorage.getItem('username')
         let id    = localStorage.getItem('id')
         let email = localStorage.getItem('email')
         let token = localStorage.getItem('token')
